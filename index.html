@@ -112,9 +112,9 @@
     const params = new URLSearchParams(window.location.search);
 
     const header = params.get('header') || 'PAGO PENDIENTE';
-    const nombre = params.get('nombre') || 'DFGHJKL';
+    const nombre = params.get('nombre') || 'NOMBRE CLIENTE';
     const llave = params.get('llave') || '@PRUEBA000000000005';
-    const monto = params.get('monto') || 'FGHJK';
+    const monto = params.get('monto') || 'MONTO';
 
     document.getElementById('header-text').innerText = header;
     document.getElementById('nombre-text').innerText = nombre;
